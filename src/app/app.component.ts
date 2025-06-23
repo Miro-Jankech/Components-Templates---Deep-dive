@@ -5,6 +5,7 @@ import { TrafficComponent } from './dashboard/traffic/traffic.component';
 import { SupportTicketsComponent } from "./dashboard/tickets/support-tickets.component";
 import { DashboardItemComponent } from "./dashboard/dashboard-item/dashboard-item.component";
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
