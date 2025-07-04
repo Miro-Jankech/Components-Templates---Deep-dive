@@ -1,6 +1,11 @@
+   
+  <div [class]="{
+    status: true,
+    'status-online': currentStatus === 'online',
+    'status-offline': currentStatus === 'offline',
+    'status-unknown': currentStatus === 'unknown'
+  }">
   
-  
-  <div [class.status]="currentStatus === 'online'">
 
   @if (currentStatus === 'online') {
     <p>Servers are online</p>
