@@ -11,7 +11,7 @@ export class ServerStatusComponent implements OnInit {
   currentStatus : 'online' | 'offline' | 'unknown' = 'online'; 
 
 
-  ngnInit() {
+  ngOnInit() {
     setInterval(() => {
       const rnd = Math.random();
 
