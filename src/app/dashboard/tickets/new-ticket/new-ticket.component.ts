@@ -17,8 +17,6 @@ export class NewTicketComponent implements OnInit, AfterViewInit{
   ngOnInit(): void {
       console.log("ON INIT");
       console.log(this.form?.nativeElement);
-      
-      
   }
 
   ngAfterViewInit() {
