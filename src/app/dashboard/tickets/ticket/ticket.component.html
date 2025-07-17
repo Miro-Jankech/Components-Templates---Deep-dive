@@ -7,7 +7,7 @@
       }"
     ></div>
     <button (click)="onToggleDetails()">
-      <span class="text">{{data().title}}</span>
+      <span class="text">{{ data().title }}</span>
       <span>
         @if (detailsVisible()) {
         <svg
@@ -44,7 +44,7 @@
   </h3>
 
   @if (detailsVisible()) {
-  <p>{{data().request}}</p>
+  <p>{{ data().request }}</p>
 
   @if (data().status === 'open') {
   <p><button (click)="onMarkAsCompleted()">Mark as completed</button></p>
